@@ -161,24 +161,6 @@ This approach:
 * Reduces unnecessary iteration
 * Adapts easily to changes in data
 
----
-
-## 🧪 Test Structure & Readability
-
-* Group related tests into `describe()` blocks.
-* Use meaningful `it()` descriptions (not generic ones like "test1").
-* Keep tests short — no more than 10–15 lines ideally.
-
-```ts
-describe('Checkout Flow', () => {
-  it('should allow a user to place an order', async () => {
-    await loginPage.login(validUser);
-    await productPage.selectProduct('T-Shirt');
-    await cartPage.checkout();
-    expect(await confirmationPage.isSuccessMessageVisible()).to.be.true;
-  });
-});
-```
 
 ---
 

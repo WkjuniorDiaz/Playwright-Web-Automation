@@ -1,4 +1,4 @@
-# Playwright Test Automation Framework (TypeScript + Mocha)
+# Playwright Test Automation Framework (TypeScript)
 
 📄 **Project Guidelines**: Please refer to the [Guidelines File](./docs/GUIDELINES.md) for folder structure rules, naming conventions, and contribution standards.
 
@@ -6,7 +6,7 @@
 
 ## 🧪 Overview
 
-This is an end-to-end (E2E) test automation framework built using **Playwright** and **TypeScript**. It follows a scalable architecture using the **Page Object Model (POM)** and integrates the **Factory Design Pattern** and a **Page Object Manager (POManager)** to streamline page interactions.
+This is an end-to-end (E2E) test automation framework built using **Playwright** and **TypeScript**. It follows a scalable architecture using the **Page Object Model (POM)** and integrates the **Factory Design Pattern** with **Page Object Manager (POManager)** to streamline page interactions.
 
 The framework supports two flexible data-driven testing approaches:
 - Using **fixture files**
