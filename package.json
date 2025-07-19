@@ -1,0 +1,23 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test",
+    "tag": "npx playwright test --grep @Login",
+    "firefox": "npx playwright test --project=firefox",
+    "regression-bs": "npx browserstack-node-sdk playwright test",
+    "tag-browserstack": "npx browserstack-node-sdk playwright test --grep @Login",
+    "firefox-browserstack": "npx browserstack-node-sdk playwright test --project=firefox"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^24.0.10",
+    "browserstack-node-sdk": "^1.38.0",
+    "playwright": "^1.50.1"
+  }
+}

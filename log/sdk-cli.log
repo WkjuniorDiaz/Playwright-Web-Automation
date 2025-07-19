@@ -1,0 +1,2660 @@
+2025-07-14T19:24:35.779Z CLI info [main]     Server listening on port: 5400
+2025-07-14T19:24:35.831Z CLI info     Config : {"userName":"junior_XBsLjd","accessKey":"sTqhy8xzoGbjPvD5ZAXM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":11,"browserName":"chrome","browserVersion":"latest"},{"os":"OS X","osVersion":"Ventura","browserName":"playwright-webkit","browserVersion":"latest"},{"os":"Windows","osVersion":11,"browserName":"playwright-firefox","browserVersion":"latest"}],"parallelsPerPlatform":1,"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-07-14T19:24:35.843Z CLI info [testhub:module]  [junior_XBsLjd]   [580765cf-8139-4143-a3c9-dc723a6f991f]  Starting testhub from 2920:0
+2025-07-14T19:24:35.843Z CLI info [testhub:module]  [junior_XBsLjd]   [580765cf-8139-4143-a3c9-dc723a6f991f]  startBuild: payload=
+
+{"started_at":"2025-07-14T19:24:35.843Z","host_info":{"hostname":"NBPE00263","platform":"win32","type":"Windows_NT","version":"Windows 10 Enterprise","arch":"x64"},"ci_info":{"build_number":null},"version_control":{},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#${BUILD_NUMBER}","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"Playwright","frameworkVersion":"1.53.2","sdkVersion":"1.38.0","cliVersion":"1.5.6","language":"javascript","testFramework":{"name":"Playwright","version":"1.53.2"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-14T19:24:35.845Z CLI info  [junior_XBsLjd]   [580765cf-8139-4143-a3c9-dc723a6f991f]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T19:24:36.501Z CLI info [testhub:module]  [junior_XBsLjd]   [580765cf-8139-4143-a3c9-dc723a6f991f]  startBuild: response=otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi
+2025-07-14T19:24:36.502Z CLI info  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-14T19:24:41.102Z CLI info  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T19:24:41.550Z CLI info [testhub:module]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  stopBuild: otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi request={"finished_at":"2025-07-14T19:24:41.101Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-14T19:24:41.551Z CLI info  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-14T19:24:41.551Z CLI info [observability:module]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  Visit https://observability.browserstack.com/builds/otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi to view build report, insights, and many more debugging information all at one place!
+2025-07-14T19:24:41.557Z CLI info [main]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T19:24:41.558Z CLI error [main]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  error: Error: spawn wmic.exe ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-14T19:24:41.559Z CLI info [main]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  Received graceful signal termination, performing cleanup
+2025-07-14T19:24:41.560Z CLI info [main]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T19:24:41.561Z CLI error [main]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  error: TypeError: Cannot read properties of undefined (reading 'map')
+    at Stream.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:517:28)
+    at Stream.emit (node:domain:489:12)
+    at Stream._0x5b1c09 (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:529:35)
+    at Stream.emit (node:domain:489:12)
+    at _0x3b3fee (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.write (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.ondata (node:internal/streams/legacy:20:31)
+    at Stream.emit (node:events:517:28)
+2025-07-14T19:24:41.561Z CLI info  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T19:24:41.846Z CLI info [testhub:module]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  stopBuild: otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi request={"finished_at":"2025-07-14T19:24:41.561Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-14T19:24:41.853Z CLI info [main]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T19:24:41.854Z CLI error [main]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  error: Error: spawn wmic.exe ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-14T19:24:41.855Z CLI info [main]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T19:24:41.855Z CLI error [main]  [junior_XBsLjd]  [otxns9sdimlzmqirvxweexzwkd03stpnhgdlozvi]  [580765cf-8139-4143-a3c9-dc723a6f991f]  error: TypeError: Cannot read properties of undefined (reading 'map')
+    at Stream.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:517:28)
+    at Stream.emit (node:domain:489:12)
+    at Stream._0x5b1c09 (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:529:35)
+    at Stream.emit (node:domain:489:12)
+    at _0x3b3fee (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.write (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.ondata (node:internal/streams/legacy:20:31)
+    at Stream.emit (node:events:517:28)
+2025-07-14T21:21:59.011Z CLI info [main]     Server listening on port: 5400
+2025-07-14T21:21:59.081Z CLI info     Config : {"userName":"junior_XBsLjd","accessKey":"sTqhy8xzoGbjPvD5ZAXM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":11,"browserName":"chrome","browserVersion":"latest"},{"os":"OS X","osVersion":"Ventura","browserName":"playwright-webkit","browserVersion":"latest"},{"os":"Windows","osVersion":11,"browserName":"playwright-firefox","browserVersion":"latest"}],"parallelsPerPlatform":1,"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-07-14T21:21:59.095Z CLI info [testhub:module]  [junior_XBsLjd]   [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Starting testhub from 23100:0
+2025-07-14T21:21:59.096Z CLI info [testhub:module]  [junior_XBsLjd]   [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  startBuild: payload=
+
+{"started_at":"2025-07-14T21:21:59.095Z","host_info":{"hostname":"NBPE00263","platform":"win32","type":"Windows_NT","version":"Windows 10 Enterprise","arch":"x64"},"ci_info":{"build_number":null},"version_control":{},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#${BUILD_NUMBER}","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"Playwright","frameworkVersion":"1.53.2","sdkVersion":"1.38.0","cliVersion":"1.5.6","language":"javascript","testFramework":{"name":"Playwright","version":"1.53.2"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-14T21:21:59.096Z CLI info  [junior_XBsLjd]   [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:21:59.583Z CLI info [testhub:module]  [junior_XBsLjd]   [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  startBuild: response=qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy
+2025-07-14T21:21:59.585Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-14T21:22:09.239Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-14T21:22:09.675Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2025-07-14T21:22:09.676Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-14T21:22:09.676Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-14T21:22:16.435Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'bff53952-6308-4a75-8fa5-5e82ed89de6d',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:22:16.354Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:16.476Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '161ff39e-c403-467f-aedd-e5f070de4bf1',
+    name: 'visual',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        '  await page.goto("https://reloj-alarma.es/hora/");\n' +
+        "  (0, _test.expect)(await page.screenshot()).toMatchSnapshot('visual.png');\n" +
+        '}'
+    },
+    identifier: 'visual',
+    scope: 'visual',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\VisualTest.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\VisualTest.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:22:16.448Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack VisualTest.spec.ts visual'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:16.644Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '9bdd51d5-a06e-4566-8d53-7268571e162e',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:22:16.618Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:17.624Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'bff53952-6308-4a75-8fa5-5e82ed89de6d',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:22:16.354Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '161ff39e-c403-467f-aedd-e5f070de4bf1',
+      name: 'visual',
+      body: [Object],
+      identifier: 'visual',
+      scope: 'visual',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\VisualTest.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\VisualTest.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:22:16.448Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '9bdd51d5-a06e-4566-8d53-7268571e162e',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:22:16.618Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 23100:0
+2025-07-14T21:22:17.626Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:22:21.179Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '9bdd51d5-a06e-4566-8d53-7268571e162e',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'failed',
+    duration_in_ms: 50,
+    started_at: '2025-07-14T21:22:16.618Z',
+    finished_at: '2025-07-14T21:22:16.668Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:21.180Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:21.152Z',
+      uuid: '9bdd51d5-a06e-4566-8d53-7268571e162e',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '9bdd51d5-a06e-4566-8d53-7268571e162e'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:21.153Z',
+      uuid: '9bdd51d5-a06e-4566-8d53-7268571e162e',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '9bdd51d5-a06e-4566-8d53-7268571e162e'
+    }
+  ]
+} to 23100:0
+2025-07-14T21:22:21.634Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '9bdd51d5-a06e-4566-8d53-7268571e162e',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'failed',
+      duration_in_ms: 50,
+      started_at: '2025-07-14T21:22:16.618Z',
+      finished_at: '2025-07-14T21:22:16.668Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] }
+] to 23100:0
+2025-07-14T21:22:21.636Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:22:23.851Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '5f1286da-340c-4d4b-a868-9d26f8fa6065',
+    name: 'visual',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        '  await page.goto("https://reloj-alarma.es/hora/");\n' +
+        "  (0, _test.expect)(await page.screenshot()).toMatchSnapshot('visual.png');\n" +
+        '}'
+    },
+    identifier: 'visual',
+    scope: 'visual',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\VisualTest.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\VisualTest.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:22:23.834Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack VisualTest.spec.ts visual'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:25.638Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '5f1286da-340c-4d4b-a868-9d26f8fa6065',
+      name: 'visual',
+      body: [Object],
+      identifier: 'visual',
+      scope: 'visual',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\VisualTest.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\VisualTest.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:22:23.834Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 23100:0
+2025-07-14T21:22:25.640Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:22:25.986Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'bff53952-6308-4a75-8fa5-5e82ed89de6d',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'failed',
+    duration_in_ms: 62,
+    started_at: '2025-07-14T21:22:16.354Z',
+    finished_at: '2025-07-14T21:22:16.416Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:25.987Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:25.969Z',
+      uuid: 'bff53952-6308-4a75-8fa5-5e82ed89de6d',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'bff53952-6308-4a75-8fa5-5e82ed89de6d'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:25.972Z',
+      uuid: 'bff53952-6308-4a75-8fa5-5e82ed89de6d',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'bff53952-6308-4a75-8fa5-5e82ed89de6d'
+    }
+  ]
+} to 23100:0
+2025-07-14T21:22:26.212Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '161ff39e-c403-467f-aedd-e5f070de4bf1',
+    name: 'visual',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        '  await page.goto("https://reloj-alarma.es/hora/");\n' +
+        "  (0, _test.expect)(await page.screenshot()).toMatchSnapshot('visual.png');\n" +
+        '}'
+    },
+    identifier: 'visual',
+    scope: 'visual',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\VisualTest.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\VisualTest.spec.ts',
+    result: 'failed',
+    duration_in_ms: 68,
+    started_at: '2025-07-14T21:22:16.448Z',
+    finished_at: '2025-07-14T21:22:16.516Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack VisualTest.spec.ts visual'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:26.213Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:26.182Z',
+      uuid: '161ff39e-c403-467f-aedd-e5f070de4bf1',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '161ff39e-c403-467f-aedd-e5f070de4bf1'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:26.183Z',
+      uuid: '161ff39e-c403-467f-aedd-e5f070de4bf1',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '161ff39e-c403-467f-aedd-e5f070de4bf1'
+    }
+  ]
+} to 23100:0
+2025-07-14T21:22:27.651Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'bff53952-6308-4a75-8fa5-5e82ed89de6d',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'failed',
+      duration_in_ms: 62,
+      started_at: '2025-07-14T21:22:16.354Z',
+      finished_at: '2025-07-14T21:22:16.416Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '161ff39e-c403-467f-aedd-e5f070de4bf1',
+      name: 'visual',
+      body: [Object],
+      identifier: 'visual',
+      scope: 'visual',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\VisualTest.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\VisualTest.spec.ts',
+      result: 'failed',
+      duration_in_ms: 68,
+      started_at: '2025-07-14T21:22:16.448Z',
+      finished_at: '2025-07-14T21:22:16.516Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] }
+] to 23100:0
+2025-07-14T21:22:27.653Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:22:28.198Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '5f1286da-340c-4d4b-a868-9d26f8fa6065',
+    name: 'visual',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        '  await page.goto("https://reloj-alarma.es/hora/");\n' +
+        "  (0, _test.expect)(await page.screenshot()).toMatchSnapshot('visual.png');\n" +
+        '}'
+    },
+    identifier: 'visual',
+    scope: 'visual',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\VisualTest.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\VisualTest.spec.ts',
+    result: 'failed',
+    duration_in_ms: 34,
+    started_at: '2025-07-14T21:22:23.834Z',
+    finished_at: '2025-07-14T21:22:23.868Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack VisualTest.spec.ts visual'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:28.199Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:28.159Z',
+      uuid: '5f1286da-340c-4d4b-a868-9d26f8fa6065',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '5f1286da-340c-4d4b-a868-9d26f8fa6065'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:28.160Z',
+      uuid: '5f1286da-340c-4d4b-a868-9d26f8fa6065',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '5f1286da-340c-4d4b-a868-9d26f8fa6065'
+    }
+  ]
+} to 23100:0
+2025-07-14T21:22:29.581Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '69bebf92-94fc-4d11-afee-6b299d8ca9c6',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:22:29.563Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:29.652Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '5f1286da-340c-4d4b-a868-9d26f8fa6065',
+      name: 'visual',
+      body: [Object],
+      identifier: 'visual',
+      scope: 'visual',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\VisualTest.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\VisualTest.spec.ts',
+      result: 'failed',
+      duration_in_ms: 34,
+      started_at: '2025-07-14T21:22:23.834Z',
+      finished_at: '2025-07-14T21:22:23.868Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '69bebf92-94fc-4d11-afee-6b299d8ca9c6',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:22:29.563Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 23100:0
+2025-07-14T21:22:29.654Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:22:30.104Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '5408baa2-bca8-46a4-9533-b4e560c8f293',
+    name: 'visual',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        '  await page.goto("https://reloj-alarma.es/hora/");\n' +
+        "  (0, _test.expect)(await page.screenshot()).toMatchSnapshot('visual.png');\n" +
+        '}'
+    },
+    identifier: 'visual',
+    scope: 'visual',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\VisualTest.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\VisualTest.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:22:30.081Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack VisualTest.spec.ts visual'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:31.668Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '5408baa2-bca8-46a4-9533-b4e560c8f293',
+      name: 'visual',
+      body: [Object],
+      identifier: 'visual',
+      scope: 'visual',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\VisualTest.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\VisualTest.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:22:30.081Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 23100:0
+2025-07-14T21:22:31.670Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:22:36.401Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '69bebf92-94fc-4d11-afee-6b299d8ca9c6',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'failed',
+    duration_in_ms: 41,
+    started_at: '2025-07-14T21:22:29.563Z',
+    finished_at: '2025-07-14T21:22:29.604Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:36.402Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:36.378Z',
+      uuid: '69bebf92-94fc-4d11-afee-6b299d8ca9c6',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '69bebf92-94fc-4d11-afee-6b299d8ca9c6'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:36.378Z',
+      uuid: '69bebf92-94fc-4d11-afee-6b299d8ca9c6',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '69bebf92-94fc-4d11-afee-6b299d8ca9c6'
+    }
+  ]
+} to 23100:0
+2025-07-14T21:22:36.916Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '5408baa2-bca8-46a4-9533-b4e560c8f293',
+    name: 'visual',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page\n' +
+        '}) => {\n' +
+        '  await page.goto("https://reloj-alarma.es/hora/");\n' +
+        "  (0, _test.expect)(await page.screenshot()).toMatchSnapshot('visual.png');\n" +
+        '}'
+    },
+    identifier: 'visual',
+    scope: 'visual',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\VisualTest.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\VisualTest.spec.ts',
+    result: 'failed',
+    duration_in_ms: 43,
+    started_at: '2025-07-14T21:22:30.081Z',
+    finished_at: '2025-07-14T21:22:30.124Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack VisualTest.spec.ts visual'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 23100:0
+2025-07-14T21:22:36.917Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:36.887Z',
+      uuid: '5408baa2-bca8-46a4-9533-b4e560c8f293',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '5408baa2-bca8-46a4-9533-b4e560c8f293'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:22:36.888Z',
+      uuid: '5408baa2-bca8-46a4-9533-b4e560c8f293',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '5408baa2-bca8-46a4-9533-b4e560c8f293'
+    }
+  ]
+} to 23100:0
+2025-07-14T21:22:37.687Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '69bebf92-94fc-4d11-afee-6b299d8ca9c6',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'failed',
+      duration_in_ms: 41,
+      started_at: '2025-07-14T21:22:29.563Z',
+      finished_at: '2025-07-14T21:22:29.604Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] },
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '5408baa2-bca8-46a4-9533-b4e560c8f293',
+      name: 'visual',
+      body: [Object],
+      identifier: 'visual',
+      scope: 'visual',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\VisualTest.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\VisualTest.spec.ts',
+      result: 'failed',
+      duration_in_ms: 43,
+      started_at: '2025-07-14T21:22:30.081Z',
+      finished_at: '2025-07-14T21:22:30.124Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] }
+] to 23100:0
+2025-07-14T21:22:37.688Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:23:19.359Z CLI info [main]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Received graceful signal termination, performing cleanup
+2025-07-14T21:23:19.361Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T21:23:19.429Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T21:23:19.708Z CLI info [testhub:module]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  stopBuild: qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy request={"finished_at":"2025-07-14T21:23:19.360Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-14T21:23:19.717Z CLI info [main]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T21:23:19.718Z CLI error [main]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  error: Error: spawn wmic.exe ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-14T21:23:19.719Z CLI info [main]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T21:23:19.720Z CLI error [main]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  error: TypeError: Cannot read properties of undefined (reading 'map')
+    at Stream.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:517:28)
+    at Stream.emit (node:domain:489:12)
+    at Stream._0x5b1c09 (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:529:35)
+    at Stream.emit (node:domain:489:12)
+    at _0x3b3fee (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.write (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.ondata (node:internal/streams/legacy:20:31)
+    at Stream.emit (node:events:517:28)
+2025-07-14T21:23:19.722Z CLI info [testhub:module]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  stopBuild: qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy request={"finished_at":"2025-07-14T21:23:19.429Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-14T21:23:19.724Z CLI info  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-14T21:23:19.726Z CLI info [observability:module]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Visit https://observability.browserstack.com/builds/qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy to view build report, insights, and many more debugging information all at one place!
+2025-07-14T21:23:19.732Z CLI info [main]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T21:23:19.732Z CLI error [main]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  error: Error: spawn wmic.exe ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-14T21:23:19.732Z CLI info [main]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T21:23:19.732Z CLI error [main]  [junior_XBsLjd]  [qnih38g1dmklk36rqxibognbizsjjpfibnj2kxwy]  [9f2049fc-6bde-4c3a-9fe9-df27ccb67682]  error: TypeError: Cannot read properties of undefined (reading 'map')
+    at Stream.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:517:28)
+    at Stream.emit (node:domain:489:12)
+    at Stream._0x5b1c09 (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:529:35)
+    at Stream.emit (node:domain:489:12)
+    at _0x3b3fee (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.write (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.ondata (node:internal/streams/legacy:20:31)
+    at Stream.emit (node:events:517:28)
+2025-07-14T21:27:31.011Z CLI info [main]     Server listening on port: 5400
+2025-07-14T21:27:31.041Z CLI info     Config : {"userName":"junior_XBsLjd","accessKey":"sTqhy8xzoGbjPvD5ZAXM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":11,"browserName":"chrome","browserVersion":"latest"},{"os":"OS X","osVersion":"Ventura","browserName":"playwright-webkit","browserVersion":"latest"},{"os":"Windows","osVersion":11,"browserName":"playwright-firefox","browserVersion":"latest"}],"parallelsPerPlatform":1,"browserstackLocal":true,"debug":false,"networkLogs":false,"consoleLogs":"errors","testObservability":true}
+2025-07-14T21:27:31.050Z CLI info [testhub:module]  [junior_XBsLjd]   [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Starting testhub from 31760:0
+2025-07-14T21:27:31.051Z CLI info [testhub:module]  [junior_XBsLjd]   [bc1d7083-59f7-462c-9e03-5b81debb12fa]  startBuild: payload=
+
+{"started_at":"2025-07-14T21:27:31.050Z","host_info":{"hostname":"NBPE00263","platform":"win32","type":"Windows_NT","version":"Windows 10 Enterprise","arch":"x64"},"ci_info":{"build_number":null},"version_control":{},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#${BUILD_NUMBER}","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"Playwright","frameworkVersion":"1.53.2","sdkVersion":"1.38.0","cliVersion":"1.5.6","language":"javascript","testFramework":{"name":"Playwright","version":"1.53.2"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-14T21:27:31.051Z CLI info  [junior_XBsLjd]   [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:27:31.634Z CLI info [testhub:module]  [junior_XBsLjd]   [bc1d7083-59f7-462c-9e03-5b81debb12fa]  startBuild: response=opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0
+2025-07-14T21:27:31.636Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-14T21:27:37.838Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-14T21:27:38.259Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2025-07-14T21:27:38.260Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-14T21:27:38.262Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-14T21:27:41.785Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'f37284ea-57a7-4cd8-934b-1a349a3df7fa',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:27:41.766Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 31760:0
+2025-07-14T21:27:41.857Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'dd48b0e6-decc-4333-944e-182e94effd7e',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:27:41.853Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 31760:0
+2025-07-14T21:27:41.940Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '5f09ce32-6c12-4e27-ab6c-96b24938227d',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:27:41.939Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 31760:0
+2025-07-14T21:27:43.681Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'f37284ea-57a7-4cd8-934b-1a349a3df7fa',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:27:41.766Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'dd48b0e6-decc-4333-944e-182e94effd7e',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:27:41.853Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '5f09ce32-6c12-4e27-ab6c-96b24938227d',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:27:41.939Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 31760:0
+2025-07-14T21:27:43.682Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:27:46.009Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'f37284ea-57a7-4cd8-934b-1a349a3df7fa',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'failed',
+    duration_in_ms: 28,
+    started_at: '2025-07-14T21:27:41.766Z',
+    finished_at: '2025-07-14T21:27:41.794Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:OSX Ventura-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 31760:0
+2025-07-14T21:27:46.010Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:27:45.990Z',
+      uuid: 'f37284ea-57a7-4cd8-934b-1a349a3df7fa',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'f37284ea-57a7-4cd8-934b-1a349a3df7fa'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:27:45.990Z',
+      uuid: 'f37284ea-57a7-4cd8-934b-1a349a3df7fa',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'f37284ea-57a7-4cd8-934b-1a349a3df7fa'
+    }
+  ]
+} to 31760:0
+2025-07-14T21:27:47.697Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'f37284ea-57a7-4cd8-934b-1a349a3df7fa',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'failed',
+      duration_in_ms: 28,
+      started_at: '2025-07-14T21:27:41.766Z',
+      finished_at: '2025-07-14T21:27:41.794Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] }
+] to 31760:0
+2025-07-14T21:27:47.701Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:27:51.473Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: 'dd48b0e6-decc-4333-944e-182e94effd7e',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'failed',
+    duration_in_ms: 21,
+    started_at: '2025-07-14T21:27:41.853Z',
+    finished_at: '2025-07-14T21:27:41.874Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 31760:0
+2025-07-14T21:27:51.474Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:27:51.462Z',
+      uuid: 'dd48b0e6-decc-4333-944e-182e94effd7e',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'dd48b0e6-decc-4333-944e-182e94effd7e'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:27:51.462Z',
+      uuid: 'dd48b0e6-decc-4333-944e-182e94effd7e',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: 'dd48b0e6-decc-4333-944e-182e94effd7e'
+    }
+  ]
+} to 31760:0
+2025-07-14T21:27:51.714Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: 'dd48b0e6-decc-4333-944e-182e94effd7e',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'failed',
+      duration_in_ms: 21,
+      started_at: '2025-07-14T21:27:41.853Z',
+      finished_at: '2025-07-14T21:27:41.874Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] }
+] to 31760:0
+2025-07-14T21:27:51.715Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:28:00.523Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '5f09ce32-6c12-4e27-ab6c-96b24938227d',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'failed',
+    duration_in_ms: 22,
+    started_at: '2025-07-14T21:27:41.939Z',
+    finished_at: '2025-07-14T21:27:41.961Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 31760:0
+2025-07-14T21:28:00.524Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:28:00.504Z',
+      uuid: '5f09ce32-6c12-4e27-ab6c-96b24938227d',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '5f09ce32-6c12-4e27-ab6c-96b24938227d'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:28:00.506Z',
+      uuid: '5f09ce32-6c12-4e27-ab6c-96b24938227d',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '5f09ce32-6c12-4e27-ab6c-96b24938227d'
+    }
+  ]
+} to 31760:0
+2025-07-14T21:28:01.753Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '5f09ce32-6c12-4e27-ab6c-96b24938227d',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'failed',
+      duration_in_ms: 22,
+      started_at: '2025-07-14T21:27:41.939Z',
+      finished_at: '2025-07-14T21:27:41.961Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] }
+] to 31760:0
+2025-07-14T21:28:01.754Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:29:32.617Z CLI info [main]  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  Received graceful signal termination, performing cleanup
+2025-07-14T21:29:32.618Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T21:29:32.680Z CLI info  [junior_XBsLjd]  [opx3fn8fedmzos3uctkaxvbknogvt2mutf7jlsr0]  [bc1d7083-59f7-462c-9e03-5b81debb12fa]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T21:50:27.472Z CLI info [main]     Server listening on port: 5400
+2025-07-14T21:50:27.518Z CLI info     Config : {"userName":"junior_XBsLjd","accessKey":"sTqhy8xzoGbjPvD5ZAXM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":11,"browserName":"playwright-firefox","browserVersion":"latest"}],"parallelsPerPlatform":1,"browserstackLocal":true,"debug":true,"networkLogs":false,"consoleLogs":"info","testObservability":true}
+2025-07-14T21:50:27.527Z CLI info [testhub:module]  [junior_XBsLjd]   [aef398f2-490f-4e03-ab26-d1ba50fb103a]  Starting testhub from 2620:0
+2025-07-14T21:50:27.528Z CLI info [testhub:module]  [junior_XBsLjd]   [aef398f2-490f-4e03-ab26-d1ba50fb103a]  startBuild: payload=
+
+{"started_at":"2025-07-14T21:50:27.528Z","host_info":{"hostname":"NBPE00263","platform":"win32","type":"Windows_NT","version":"Windows 10 Enterprise","arch":"x64"},"ci_info":{"build_number":null},"version_control":{},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#${BUILD_NUMBER}","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"Playwright","frameworkVersion":"1.53.2","sdkVersion":"1.38.0","cliVersion":"1.5.6","language":"javascript","testFramework":{"name":"Playwright","version":"1.53.2"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-14T21:50:27.528Z CLI info  [junior_XBsLjd]   [aef398f2-490f-4e03-ab26-d1ba50fb103a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:50:28.030Z CLI info [testhub:module]  [junior_XBsLjd]   [aef398f2-490f-4e03-ab26-d1ba50fb103a]  startBuild: response=qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x
+2025-07-14T21:50:28.033Z CLI info  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-14T21:50:35.790Z CLI info  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-14T21:50:36.201Z CLI info  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2025-07-14T21:50:36.201Z CLI info  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-14T21:50:36.202Z CLI info  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-14T21:50:39.145Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '103a3b0c-a927-433b-956f-1d43736d3c7b',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:50:39.128Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 2620:0
+2025-07-14T21:50:40.067Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '103a3b0c-a927-433b-956f-1d43736d3c7b',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:50:39.128Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 2620:0
+2025-07-14T21:50:40.068Z CLI info  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:50:48.427Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '103a3b0c-a927-433b-956f-1d43736d3c7b',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'failed',
+    duration_in_ms: 25,
+    started_at: '2025-07-14T21:50:39.128Z',
+    finished_at: '2025-07-14T21:50:39.153Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 2620:0
+2025-07-14T21:50:48.428Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:50:48.415Z',
+      uuid: '103a3b0c-a927-433b-956f-1d43736d3c7b',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '103a3b0c-a927-433b-956f-1d43736d3c7b'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:50:48.416Z',
+      uuid: '103a3b0c-a927-433b-956f-1d43736d3c7b',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '103a3b0c-a927-433b-956f-1d43736d3c7b'
+    }
+  ]
+} to 2620:0
+2025-07-14T21:50:50.101Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '103a3b0c-a927-433b-956f-1d43736d3c7b',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'failed',
+      duration_in_ms: 25,
+      started_at: '2025-07-14T21:50:39.128Z',
+      finished_at: '2025-07-14T21:50:39.153Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] }
+] to 2620:0
+2025-07-14T21:50:50.102Z CLI info  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:52:02.985Z CLI info [main]  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  Received graceful signal termination, performing cleanup
+2025-07-14T21:52:03.031Z CLI info  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T21:52:03.039Z CLI info  [junior_XBsLjd]  [qcchxnurtzknfhnroi4djhbjcdsyple3zznp0i6x]  [aef398f2-490f-4e03-ab26-d1ba50fb103a]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T21:53:39.436Z CLI info [main]     Server listening on port: 5400
+2025-07-14T21:53:39.466Z CLI info     Config : {"userName":"junior_XBsLjd","accessKey":"sTqhy8xzoGbjPvD5ZAXM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":11,"browserName":"playwright-firefox","browserVersion":"latest"}],"parallelsPerPlatform":1,"browserstackLocal":true,"debug":true,"networkLogs":false,"consoleLogs":"info","testObservability":true}
+2025-07-14T21:53:39.475Z CLI info [testhub:module]  [junior_XBsLjd]   [797e2468-dd05-4546-bf7f-01def796d874]  Starting testhub from 29716:0
+2025-07-14T21:53:39.476Z CLI info [testhub:module]  [junior_XBsLjd]   [797e2468-dd05-4546-bf7f-01def796d874]  startBuild: payload=
+
+{"started_at":"2025-07-14T21:53:39.476Z","host_info":{"hostname":"NBPE00263","platform":"win32","type":"Windows_NT","version":"Windows 10 Enterprise","arch":"x64"},"ci_info":{"build_number":null},"version_control":{},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#${BUILD_NUMBER}","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"Playwright","frameworkVersion":"1.53.2","sdkVersion":"1.38.0","cliVersion":"1.5.6","language":"javascript","testFramework":{"name":"Playwright","version":"1.53.2"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-14T21:53:39.476Z CLI info  [junior_XBsLjd]   [797e2468-dd05-4546-bf7f-01def796d874]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:53:40.079Z CLI info [testhub:module]  [junior_XBsLjd]   [797e2468-dd05-4546-bf7f-01def796d874]  startBuild: response=rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya
+2025-07-14T21:53:40.081Z CLI info  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-14T21:53:46.634Z CLI info  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-14T21:53:47.051Z CLI info  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2025-07-14T21:53:47.051Z CLI info  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-14T21:53:47.052Z CLI info  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-14T21:53:50.571Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '68dac9d0-2080-415c-b96f-375beef5485b',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:53:50.528Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 29716:0
+2025-07-14T21:53:52.108Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '68dac9d0-2080-415c-b96f-375beef5485b',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:53:50.528Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 29716:0
+2025-07-14T21:53:52.110Z CLI info  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:54:00.579Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '68dac9d0-2080-415c-b96f-375beef5485b',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'failed',
+    duration_in_ms: 19,
+    started_at: '2025-07-14T21:53:50.528Z',
+    finished_at: '2025-07-14T21:53:50.547Z',
+    failure: [ [Object] ],
+    failure_type: 'UnhandledError',
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 29716:0
+2025-07-14T21:54:00.580Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:54:00.510Z',
+      uuid: '68dac9d0-2080-415c-b96f-375beef5485b',
+      kind: 'TEST_STEP',
+      message: 'browser',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '68dac9d0-2080-415c-b96f-375beef5485b'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.53.2',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:54:00.512Z',
+      uuid: '68dac9d0-2080-415c-b96f-375beef5485b',
+      kind: 'TEST_STEP',
+      message: '__browserstack_workerHook',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '68dac9d0-2080-415c-b96f-375beef5485b'
+    }
+  ]
+} to 29716:0
+2025-07-14T21:54:02.158Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '68dac9d0-2080-415c-b96f-375beef5485b',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'failed',
+      duration_in_ms: 19,
+      started_at: '2025-07-14T21:53:50.528Z',
+      finished_at: '2025-07-14T21:53:50.547Z',
+      failure: [Array],
+      failure_type: 'UnhandledError',
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  { event_type: 'LogCreated', logs: [ [Object], [Object] ] }
+] to 29716:0
+2025-07-14T21:54:02.160Z CLI info  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:55:48.544Z CLI info [main]  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  Received graceful signal termination, performing cleanup
+2025-07-14T21:55:48.553Z CLI info  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T21:55:48.621Z CLI info  [junior_XBsLjd]  [rtnnvqujwomwqijxgkkpxbjablwqttc1ntrog3ya]  [797e2468-dd05-4546-bf7f-01def796d874]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T21:59:17.181Z CLI info [main]     Server listening on port: 5400
+2025-07-14T21:59:17.216Z CLI info     Config : {"userName":"junior_XBsLjd","accessKey":"sTqhy8xzoGbjPvD5ZAXM","projectName":"BrowserStack Samples","buildName":"browserstack build","buildIdentifier":"#${BUILD_NUMBER}","platforms":[{"os":"Windows","osVersion":11,"browserName":"playwright-firefox","browserVersion":"latest"}],"parallelsPerPlatform":1,"browserstackLocal":true,"debug":true,"networkLogs":false,"consoleLogs":"info","testObservability":true}
+2025-07-14T21:59:17.226Z CLI info [testhub:module]  [junior_XBsLjd]   [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Starting testhub from 18648:0
+2025-07-14T21:59:17.226Z CLI info [testhub:module]  [junior_XBsLjd]   [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  startBuild: payload=
+
+{"started_at":"2025-07-14T21:59:17.226Z","host_info":{"hostname":"NBPE00263","platform":"win32","type":"Windows_NT","version":"Windows 10 Enterprise","arch":"x64"},"ci_info":{"build_number":null},"version_control":{},"project_name":"BrowserStack Samples","name":"browserstack build","build_identifier":"#${BUILD_NUMBER}","build_run_identifier":null,"description":"","tags":[],"failed_tests_rerun":false,"accessibility":{"settings":{}},"framework_details":{"frameworkName":"Playwright","frameworkVersion":"1.50.1","sdkVersion":"1.38.0","cliVersion":"1.5.6","language":"javascript","testFramework":{"name":"Playwright","version":"1.50.1"}},"product_map":{"observability":true,"accessibility":null,"percy":false,"automate":true,"app_automate":false},"browserstackAutomation":true}
+2025-07-14T21:59:17.226Z CLI info  [junior_XBsLjd]   [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:59:17.973Z CLI info [testhub:module]  [junior_XBsLjd]   [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  startBuild: response=sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny
+2025-07-14T21:59:17.977Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-14T21:59:25.192Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-07-14T21:59:26.018Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making GET request to https://hub-use.browserstack.com
+2025-07-14T21:59:26.019Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making GET request to https://hub-usw.browserstack.com
+2025-07-14T21:59:26.022Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-07-14T21:59:29.447Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Added the event {
+  event_type: 'TestRunStarted',
+  logs: undefined,
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: undefined,
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2025-07-14T21:59:29.416Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 18648:0
+2025-07-14T21:59:30.021Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Processing batch event [
+  {
+    event_type: 'TestRunStarted',
+    logs: undefined,
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: undefined,
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2025-07-14T21:59:29.416Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  }
+] to 18648:0
+2025-07-14T21:59:30.022Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:59:41.465Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+    integrations: { browserstack: [Object] }
+  }
+} to 18648:0
+2025-07-14T21:59:42.067Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+      integrations: [Object]
+    }
+  }
+] to 18648:0
+2025-07-14T21:59:42.068Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T21:59:58.822Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Added the event {
+  event_type: 'TestRunFinished',
+  logs: [],
+  test_run: {
+    type: 'test',
+    framework: 'Playwright',
+    uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+    name: '@Login Successful login',
+    body: {
+      lang: 'javascript',
+      code: 'async ({\n' +
+        '  page,\n' +
+        '  testDataLogin\n' +
+        '}) => {\n' +
+        '  const poManager = new _POManager.POManager(page);\n' +
+        '  const loginPage = poManager.getLoginPage();\n' +
+        '  const dashboardPage = poManager.getDashboardPage();\n' +
+        '  await loginPage.goto();\n' +
+        '  await loginPage.validLogin(testDataLogin.username, testDataLogin.password);\n' +
+        '  await dashboardPage.printProductNames();\n' +
+        '}'
+    },
+    identifier: '@Login Successful login',
+    scope: '@Login Successful login',
+    scopes: [],
+    custom_metadata: {},
+    file_name: 'tests\\DataWithFixture.spec.ts',
+    vc_filepath: '',
+    location: 'tests\\DataWithFixture.spec.ts',
+    result: 'passed',
+    duration_in_ms: 19909,
+    started_at: '2025-07-14T21:59:29.416Z',
+    finished_at: '2025-07-14T21:59:49.325Z',
+    failure: null,
+    failure_type: undefined,
+    failure_reason: null,
+    retry_of: null,
+    tags: [ 'Login' ],
+    customRerunParam: {
+      rerun_name: ' -latest:Windows 11-browserstack DataWithFixture.spec.ts @Login Successful login'
+    },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  }
+} to 18648:0
+2025-07-14T21:59:58.850Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Added the event {
+  event_type: 'LogCreated',
+  logs: [
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.50.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:59:41.861Z',
+      uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+      kind: 'TEST_STEP',
+      message: 'page.goto(https://rahulshettyacademy.com/loginpagePractise/)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '84b22016-cdec-477a-a986-6242d5abd11f'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.50.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:59:49.216Z',
+      uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+      kind: 'TEST_STEP',
+      message: 'locator.fill(#username)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '84b22016-cdec-477a-a986-6242d5abd11f'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.50.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:59:49.527Z',
+      uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+      kind: 'TEST_STEP',
+      message: 'locator.fill(#password)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '84b22016-cdec-477a-a986-6242d5abd11f'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.50.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:59:49.741Z',
+      uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+      kind: 'TEST_STEP',
+      message: 'locator.click(#signInBtn)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '84b22016-cdec-477a-a986-6242d5abd11f'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.50.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:59:50.076Z',
+      uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+      kind: 'TEST_STEP',
+      message: 'locator.waitFor(.card-title >> nth=-1)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '84b22016-cdec-477a-a986-6242d5abd11f'
+    },
+    {
+      testFrameworkName: 'Playwright',
+      testFrameworkVersion: '1.50.1',
+      testFrameworkState: 'TEST',
+      timestamp: '2025-07-14T21:59:55.380Z',
+      uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+      kind: 'TEST_STEP',
+      message: 'locator.allTextContents(.card-title)',
+      level: 'passed',
+      fileName: '',
+      fileSize: [Long],
+      filePath: '',
+      attachmentType: '',
+      test_run_uuid: '84b22016-cdec-477a-a986-6242d5abd11f'
+    }
+  ]
+} to 18648:0
+2025-07-14T21:59:58.851Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T22:00:00.141Z CLI info [testhub:request-queue-handler]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    logs: [],
+    test_run: {
+      type: 'test',
+      framework: 'Playwright',
+      uuid: '84b22016-cdec-477a-a986-6242d5abd11f',
+      name: '@Login Successful login',
+      body: [Object],
+      identifier: '@Login Successful login',
+      scope: '@Login Successful login',
+      scopes: [],
+      custom_metadata: {},
+      file_name: 'tests\\DataWithFixture.spec.ts',
+      vc_filepath: '',
+      location: 'tests\\DataWithFixture.spec.ts',
+      result: 'passed',
+      duration_in_ms: 19909,
+      started_at: '2025-07-14T21:59:29.416Z',
+      finished_at: '2025-07-14T21:59:49.325Z',
+      failure: null,
+      failure_type: undefined,
+      failure_reason: null,
+      retry_of: null,
+      tags: [Array],
+      customRerunParam: [Object],
+      hooks: [],
+      product_map: [Object]
+    }
+  },
+  {
+    event_type: 'LogCreated',
+    logs: [ [Object], [Object], [Object], [Object], [Object], [Object] ]
+  }
+] to 18648:0
+2025-07-14T22:00:00.155Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-07-14T22:00:00.572Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T22:00:00.911Z CLI info [testhub:module]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  stopBuild: sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny request={"finished_at":"2025-07-14T21:59:59.104Z","finished_metadata":[],"custom_metadata":{}} response={"data":""}
+2025-07-14T22:00:00.916Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-07-14T22:00:00.919Z CLI info [observability:module]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Visit https://observability.browserstack.com/builds/sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny to view build report, insights, and many more debugging information all at one place!
+2025-07-14T22:00:00.947Z CLI info [main]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T22:00:00.949Z CLI error [main]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  error: Error: spawn wmic.exe ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-14T22:00:00.951Z CLI info [main]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Received graceful signal termination, performing cleanup
+2025-07-14T22:00:00.956Z CLI info [main]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T22:00:00.957Z CLI error [main]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  error: TypeError: Cannot read properties of undefined (reading 'map')
+    at Stream.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:517:28)
+    at Stream.emit (node:domain:489:12)
+    at Stream._0x5b1c09 (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:529:35)
+    at Stream.emit (node:domain:489:12)
+    at _0x3b3fee (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.write (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.ondata (node:internal/streams/legacy:20:31)
+    at Stream.emit (node:events:517:28)
+2025-07-14T22:00:00.958Z CLI info  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-07-14T22:00:01.258Z CLI info [testhub:module]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  stopBuild: sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny request={"finished_at":"2025-07-14T22:00:00.957Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-07-14T22:00:01.264Z CLI info [main]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T22:00:01.264Z CLI error [main]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  error: Error: spawn wmic.exe ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:284:19)
+    at onErrorNT (node:internal/child_process:477:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-07-14T22:00:01.265Z CLI info [main]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  Upgrade available: Please update from beta to the latest stable version.
+2025-07-14T22:00:01.266Z CLI error [main]  [junior_XBsLjd]  [sljnbuzadevwk9anhnuwv1f31ntzbn5jgij7lgny]  [96d28c79-b1f0-4a2a-b689-a5ba16482a54]  error: TypeError: Cannot read properties of undefined (reading 'map')
+    at Stream.<anonymous> (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:517:28)
+    at Stream.emit (node:domain:489:12)
+    at Stream._0x5b1c09 (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.emit (node:events:529:35)
+    at Stream.emit (node:domain:489:12)
+    at _0x3b3fee (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.write (C:\snapshot\browserstack-binary\cli\dist\index.js)
+    at Stream.ondata (node:internal/streams/legacy:20:31)
+    at Stream.emit (node:events:517:28)

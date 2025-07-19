@@ -1,0 +1,76 @@
+"" 
+
+Mon Jul 14 2025 16:59:12:98 GMT-0500 (SA Pacific Standard Time) -- Binary semantic version is v8.9.17
+Mon Jul 14 2025 16:59:12:98 GMT-0500 (SA Pacific Standard Time) -- Setting output as extra verbose with request parsing
+'WMIC' is not recognized as an internal or external command,
+operable program or batch file.
+Mon Jul 14 2025 16:59:12:151 GMT-0500 (SA Pacific Standard Time) -- Got error { Error: Command failed: WMIC Process where " NOT CommandLine like '%WMIC%' AND CommandLine like '%BrowserStackLocal%' AND NOT CommandLine like '%browserstack-fork%'" get ProcessId <NUL
+'WMIC' is not recognized as an internal or external command,
+operable program or batch file.
+
+    at checkExecSyncError (child_process.js:629:11)
+    at execSync (child_process.js:666:13)
+    at Object.getProcesses (bslocal.js:1:18866)
+    at Object.getForksToRunFromRails (bslocal.js:1:145547)
+    at e (bslocal.js:1:12158785)
+    at i (bslocal.js:1:208234)
+    at it (bslocal.js:1:206443)
+    at Object.connect (bslocal.js:1:12159174)
+    at Object.startTheShow (bslocal.js:1:12157378)
+    at bslocal.js:1:12157259
+  status: 1,
+  signal: null,
+  output:
+   [ null,
+     <Buffer >,
+     <Buffer 27 57 4d 49 43 27 20 69 73 20 6e 6f 74 20 72 65 63 6f 67 6e 69 7a 65 64 20 61 73 20 61 6e 20 69 6e 74 65 72 6e 61 6c 20 6f 72 20 65 78 74 65 72 6e 61 ... > ],
+  pid: 8296,
+  stdout: <Buffer >,
+  stderr:
+   <Buffer 27 57 4d 49 43 27 20 69 73 20 6e 6f 74 20 72 65 63 6f 67 6e 69 7a 65 64 20 61 73 20 61 6e 20 69 6e 74 65 72 6e 61 6c 20 6f 72 20 65 78 74 65 72 6e 61 ... > }
+'WMIC' is not recognized as an internal or external command,
+operable program or batch file.
+Mon Jul 14 2025 16:59:12:171 GMT-0500 (SA Pacific Standard Time) -- Got error { Error: Command failed: WMIC Process where " NOT CommandLine like '%WMIC%' AND CommandLine like '%BrowserStackLocal%'" get ProcessId <NUL
+'WMIC' is not recognized as an internal or external command,
+operable program or batch file.
+
+    at checkExecSyncError (child_process.js:629:11)
+    at execSync (child_process.js:666:13)
+    at Object.getProcesses (bslocal.js:1:18866)
+    at Object.getForksToRunFromRails (bslocal.js:1:145600)
+    at e (bslocal.js:1:12158785)
+    at i (bslocal.js:1:208234)
+    at it (bslocal.js:1:206443)
+    at Object.connect (bslocal.js:1:12159174)
+    at Object.startTheShow (bslocal.js:1:12157378)
+    at bslocal.js:1:12157259
+  status: 1,
+  signal: null,
+  output:
+   [ null,
+     <Buffer >,
+     <Buffer 27 57 4d 49 43 27 20 69 73 20 6e 6f 74 20 72 65 63 6f 67 6e 69 7a 65 64 20 61 73 20 61 6e 20 69 6e 74 65 72 6e 61 6c 20 6f 72 20 65 78 74 65 72 6e 61 ... > ],
+  pid: 29932,
+  stdout: <Buffer >,
+  stderr:
+   <Buffer 27 57 4d 49 43 27 20 69 73 20 6e 6f 74 20 72 65 63 6f 67 6e 69 7a 65 64 20 61 73 20 61 6e 20 69 6e 74 65 72 6e 61 6c 20 6f 72 20 65 78 74 65 72 6e 61 ... > }
+Mon Jul 14 2025 16:59:14:136 GMT-0500 (SA Pacific Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Jul 14 2025 16:59:14:222 GMT-0500 (SA Pacific Standard Time) -- Starting configuration console on http://localhost:45454
+Mon Jul 14 2025 16:59:14:471 GMT-0500 (SA Pacific Standard Time) -- Connecting to BrowserStack using WebSocket protocol...
+Mon Jul 14 2025 16:59:14:471 GMT-0500 (SA Pacific Standard Time) -- Platform supports WebSocket connections.
+
+Mon Jul 14 2025 16:59:14:586 GMT-0500 (SA Pacific Standard Time) -- Press Ctrl-C to exit
+
+
+
+'WMIC' is not recognized as an internal or external command,
+operable program or batch file.
+'WMIC' is not recognized as an internal or external command,
+operable program or batch file.
+Mon Jul 14 2025 16:59:19:770 GMT-0500 (SA Pacific Standard Time) -- [WARNING] Skipping initialisation of configuration console because: port already in use by another Binary
+Mon Jul 14 2025 16:59:21:211 GMT-0500 (SA Pacific Standard Time) -- [SUCCESS] You can now access your local server(s) in our remote browser
+
+Mon Jul 14 2025 16:59:21:543 GMT-0500 (SA Pacific Standard Time) -- Press Ctrl-C to exit
+
+
